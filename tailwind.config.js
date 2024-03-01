@@ -1,14 +1,14 @@
 // Tailkit (Tailwind CSS v3 Configuration)
-const plugin = require('tailwindcss/plugin');
-const defaultTheme = require('tailwindcss/defaultTheme');
-const colors = require('tailwindcss/colors');
+const plugin = require("tailwindcss/plugin");
+const defaultTheme = require("tailwindcss/defaultTheme");
+const colors = require("tailwindcss/colors");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   darkMode: "class",
   theme: {
@@ -28,6 +28,16 @@ module.exports = {
         80: 80,
         90: 90,
         100: 100,
+      },
+      keyframes: {
+        "spin-slow": {
+          "100%": {
+            transform: "rotate(-360deg)",
+          },
+        },
+      },
+      animation: {
+        "spin-slow": "spin-slow 8s linear infinite",
       },
       typography: {
         DEFAULT: {
@@ -78,4 +88,4 @@ module.exports = {
       addUtilities(utilFormSwitch);
     }),
   ],
-}
+};
