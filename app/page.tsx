@@ -66,7 +66,7 @@ export default function Home() {
             </svg>
             <span>by pixelcave</span>
           </a>
-          <h1 className="lg:leading-tighter mb-4 text-3xl font-black text-black dark:text-white md:text-5xl lg:mx-auto lg:w-5/6">
+          <h1 className="lg:leading-tighter mb-4 text-3xl font-black text-black md:text-5xl lg:mx-auto lg:w-5/6 dark:text-white">
             <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent dark:from-blue-400 dark:via-indigo-400 dark:to-purple-400">
               Build
             </span>{" "}
@@ -76,7 +76,7 @@ export default function Home() {
             </span>
             .
           </h1>
-          <h2 className="text-lg/relaxed font-medium text-gray-700 dark:text-gray-300 sm:text-xl/relaxed lg:mx-auto lg:w-3/5">
+          <h2 className="text-lg/relaxed font-medium text-gray-700 sm:text-xl/relaxed lg:mx-auto lg:w-3/5 dark:text-gray-300">
             Carefully crafted, easy to customize, fully responsive UI
             Components, Templates and Tools for your Tailwind CSS based
             projects.
@@ -109,9 +109,9 @@ export default function Home() {
             <span>Get Started</span>
           </a>
           <a
-            href="https://tailkit.com/docs/documentation"
+            href="https://tailkit.com/docs"
             target="_blank"
-            className="group inline-flex w-full items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white p-3 text-sm font-semibold leading-5 text-gray-800 transition hover:border-gray-300 hover:text-gray-900 hover:shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-transparent dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/50 dark:active:border-gray-700 sm:w-auto sm:px-4"
+            className="group inline-flex w-full items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white p-3 text-sm font-semibold leading-5 text-gray-800 transition hover:border-gray-300 hover:text-gray-900 hover:shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none sm:w-auto sm:px-4 dark:border-gray-700 dark:bg-transparent dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/50 dark:active:border-gray-700"
           >
             <svg
               className="hi-mini hi-document-text inline-block size-5 opacity-50"
