@@ -1,8 +1,14 @@
 // Tailkit (Tailwind CSS v3 Configuration)
-const defaultTheme = require("tailwindcss/defaultTheme");
+import type { Config } from "tailwindcss";
+
+import defaultTheme from "tailwindcss/defaultTheme";
+
+import aspectRatio from "@tailwindcss/aspect-ratio";
+import forms from "@tailwindcss/forms";
+import typography from "@tailwindcss/typography";
 
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -20,12 +26,12 @@ module.exports = {
         "10xl": "120rem",
       },
       zIndex: {
-        1: 1,
-        60: 60,
-        70: 70,
-        80: 80,
-        90: 90,
-        100: 100,
+        1: '1',
+        60: '60',
+        70: '70',
+        80: '80',
+        90: '90',
+        100: '100',
       },
       keyframes: {
         "spin-slow": {
@@ -39,9 +45,7 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require("@tailwindcss/aspect-ratio"),
-    require("@tailwindcss/forms"),
-    require("@tailwindcss/typography"),
-  ],
+  plugins: [aspectRatio, forms, typography],
 };
+
+export default config;
