@@ -18,11 +18,13 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.bunny.net" />
         <link
           href="https://fonts.bunny.net/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+          crossOrigin="anonymous"
           rel="stylesheet"
         />
         <link
           href="https://fonts.bunny.net/css2?family=Caveat:wght@600&display=swap"
           rel="stylesheet"
+          crossOrigin="anonymous"
         />
       </head>
       <body className="antialiased">{children}</body>
