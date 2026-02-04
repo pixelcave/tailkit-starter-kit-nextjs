@@ -16,21 +16,21 @@
   },
   "dependencies": {
     "@headlessui/react": "^2.2.9",
-    "next": "^16.0.10",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
-    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/forms": "^0.5.11",
     "@tailwindcss/postcss": "^4.1.18",
     "@tailwindcss/typography": "^0.5.19",
-    "@types/node": "^22.19.3",
-    "@types/react": "^19.2.7",
+    "@types/node": "^22.19.8",
+    "@types/react": "^19.2.10",
     "@types/react-dom": "19.2.3",
     "eslint": "^9.39.2",
-    "eslint-config-next": "^16.0.10",
+    "eslint-config-next": "^16.1.6",
     "postcss": "^8.5.6",
-    "prettier": "^3.7.4",
+    "prettier": "^3.8.1",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "tailwindcss": "^4.1.6",
     "typescript": "^5.9.3"
